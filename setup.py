@@ -7,7 +7,7 @@ import sys
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = 'cryptowatch'
+NAME = 'cryptowatching'
 DESCRIPTION = 'Track prices and account balances for bitcoin, ethereum, and litecoin'
 URL = 'https://github.com/alexanderepstein/cryptowatch'
 EMAIL = 'epsteina@wit.edu'
@@ -41,7 +41,7 @@ setup(
     url=URL,
     packages=find_packages(exclude=('tests',)),
     entry_points={
-        'console_scripts': ['cryptowatch=cryptoConsole.cryptowatch:main'],
+        'console_scripts': ['cryptowatching=cryptoConsole.cryptowatch:main'],
     },
     keywords = ['cryptcurrencies', 'monitor', 'rpi', 'console'], # arbitrary keywords
     install_requires=required,
