@@ -61,7 +61,7 @@ comment = """
 
 
 
-"""Config Class to be shared throughout cryptowatch"""
+"""Config Class to be shared throughout cryptowatching"""
 class config(object):
 
     def __init__(self):
