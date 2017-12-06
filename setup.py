@@ -41,7 +41,7 @@ setup(
     url=URL,
     packages=find_packages(exclude=('tests',)),
     entry_points={
-        'console_scripts': ['cryptowatching=cryptoConsole.cryptowatch:main'],
+        'console_scripts': ['cryptowatching=cryptoConsole.cryptowatching:main'],
     },
     keywords = ['cryptcurrencies', 'monitor', 'rpi', 'console'], # arbitrary keywords
     install_requires=required,
